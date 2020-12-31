@@ -16,3 +16,8 @@ $ npm install
 ```
 $ node index.js
 ```
+
+## Test the app
+http://localhost:4000
+
+http://localhost:4000/about
