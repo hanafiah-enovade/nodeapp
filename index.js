@@ -5,11 +5,11 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Salam Sejahtera!');
 });
 
 app.get('/about', (req, res) => {
-    res.json({msg: 'nodejs app'})
+    res.json({msg: 'Aplikasi nodeJS'})
 });
 
 app.listen(4000, () => {
