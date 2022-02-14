@@ -3,7 +3,7 @@
 # Guide to install this app
 ## Clone this app
 ```
-$ git clone https://github.com/M457ERCH1EF/nodeapp.git
+$ git clone https://github.com/Hanafiah-Enovade/nodeapp.git
 ```
 
 ## Install the app
