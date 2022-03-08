@@ -35,6 +35,7 @@ jobs:
         key: ${{secrets.AZURE_SSH}}
         host: ${{secrets.AZURE_IP_ADDRESS}}
         username: ${{secrets.AZURE_USERNAME}}
+        password: ${{secrets.AZURE_KATALALUAN}}
         script: |
           pm2 delete all
           cd /var/app/nodejs
