@@ -35,7 +35,7 @@ jobs:
         password: ${{secrets.AZURE_IP_KATALALUAN}}
         host: ${{secrets.AZURE_IP_ADDRESS}}
         username: ${{secrets.AZURE_IP_USERNAME}}
-        command: |
+        script: |
           pm2 delete all
           cd /var/app/nodejs
           git pull
