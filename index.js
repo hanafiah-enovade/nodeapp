@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.json({msg: 'Demo Aplikasi nodeJS'})
+    res.json({msg: 'MDEC Aplikasi nodeJS'})
 });
 
 app.listen(4000, () => {
