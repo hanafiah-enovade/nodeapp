@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.json({msg: 'MDEC Aplikasi nodeJS'})
+    res.json({msg: 'Aplikasi nodeJS di Azure Cloud'})
 });
 
 app.listen(4000, () => {
