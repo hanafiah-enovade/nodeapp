@@ -32,7 +32,8 @@ jobs:
     - name: SSH Remote Commands
       uses: appleboy/ssh-action@v0.1.4
       with:
-        password: ${{secrets.AZURE_KATALALUAN}}
+        # password: ${{secrets.AZURE_KATALALUAN}}
+        key: ${{secrets.AZURE_SSH}}
         host: ${{secrets.AZURE_IP_ADDRESS}}
         username: ${{secrets.AZURE_USERNAME}}
         script: |
