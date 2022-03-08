@@ -30,12 +30,12 @@ jobs:
     - run: npm run build --if-present
 #    - run: npm run test:staging
     - name: SSH Remote Commands
-      uses: appleboy/ssh-action@v0.1.2
+      uses: garygrossgarten/github-action-ssh@v0.6.3
       with:
         password: ${{secrets.AZURE_IP_KATALALUAN}}
         host: ${{secrets.AZURE_IP_ADDRESS}}
         username: ${{secrets.AZURE_IP_USERNAME}}
-        script: |
+        command: |
           pm2 delete all
           cd /var/app/nodejs
           git pull
