@@ -32,9 +32,9 @@ jobs:
     - name: SSH Remote Commands
       uses: appleboy/ssh-action@v0.1.4
       with:
-        password: ${{secrets.AZURE_IP_KATALALUAN}}
+        password: ${{secrets.AZURE_KATALALUAN}}
         host: ${{secrets.AZURE_IP_ADDRESS}}
-        username: ${{secrets.AZURE_IP_USERNAME}}
+        username: ${{secrets.AZURE_USERNAME}}
         script: |
           pm2 delete all
           cd /var/app/nodejs
