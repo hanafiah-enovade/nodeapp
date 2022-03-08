@@ -32,9 +32,9 @@ jobs:
     - name: SSH Remote Commands
       uses: appleboy/ssh-action@v0.1.2
       with:
-        key: ${{secrets.GOOGLE_CLOUD_VM_SSH}}
-        host: ${{secrets.GOOGLE_CLOUD_VM_IP}}
-        username: ${{secrets.GOOGLE_CLOUD_VM_USERNAME}}
+        password: ${{secrets.AZURE_IP_KATALALUAN}}
+        host: ${{secrets.AZURE_IP_ADDRESS}}
+        username: ${{secrets.AZURE_IP_USERNAME}}
         script: |
           pm2 delete all
           cd /var/app/nodejs
