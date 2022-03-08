@@ -38,7 +38,7 @@ jobs:
         password: ${{secrets.AZURE_KATALALUAN}}
         script: |
           pm2 delete all
-          cd /var/app/nodejs
+          cd /home/hh/nodeapp
           git pull
           npm install
-          pm2 start npm -- start
+          pm2 start index.js
