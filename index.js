@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.json({msg: 'Aplikasi nodeJS di AIW Lab'})
+    res.json({msg: 'Aplikasi nodeJS utk MCMC'})
 });
 
 app.listen(4000, () => {
