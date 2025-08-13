@@ -16,6 +16,10 @@ app.get('/support', (req, res) => {
     res.json("Hello, i'm you support assistant");
 });
 
+app.get('/xilnex', (req, res) => {
+    res.json("Welcome to Xilnex");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
