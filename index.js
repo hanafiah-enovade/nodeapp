@@ -12,6 +12,10 @@ app.get('/about', (req, res) => {
     res.json({msg: 'Aplikasi nodeJS utk MCMC'})
 });
 
+app.get('/support', (req, res) => {
+    res.json("Hello, i'm you support assistant");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
