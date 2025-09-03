@@ -20,6 +20,10 @@ app.get('/xilnex', (req, res) => {
     res.json("Welcome to Xilnex");
 });
 
+app.get('/madani', (req, res) => {
+    res.json("Salam Malaysia Madani");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
