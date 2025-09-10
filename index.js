@@ -28,6 +28,10 @@ app.get('/demo', (req, res) => {
     res.json("This is a demo");
 });
 
+app.get('/alrajhi', (req, res) => {
+    res.json("Hello AlRajhi");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
