@@ -9,15 +9,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.json({msg: 'Aplikasi nodeJS utk MCMC'})
+    res.json({msg: 'Demo Aplikasi nodeJS'})
 });
 
 app.get('/support', (req, res) => {
     res.json("Hello, i'm you support assistant");
-});
-
-app.get('/xilnex', (req, res) => {
-    res.json("Welcome to Xilnex");
 });
 
 app.get('/madani', (req, res) => {
