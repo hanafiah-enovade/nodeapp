@@ -29,7 +29,7 @@ app.get('/demo', (req, res) => {
 });
 
 app.get('/alrajhi', (req, res) => {
-    res.json("Hello AlRajhi");
+    res.json("Salam AlRajhi");
 });
 
 app.listen(4000, () => {
