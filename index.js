@@ -24,6 +24,10 @@ app.get('/ictjohor', (req, res) => {
     res.json("Salam Maju Johor");
 });
 
+app.get('/demo', (req, res) => {
+    res.json("This is a demo");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
