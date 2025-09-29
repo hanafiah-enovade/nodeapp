@@ -20,6 +20,10 @@ app.get('/madani', (req, res) => {
     res.json("Salam Malaysia Madani");
 });
 
+app.get('/jdn', (req, res) => {
+    res.json("Salam Malaysia Madani");
+});
+
 app.get('/ictjohor', (req, res) => {
     res.json("Salam Maju Johor");
 });
