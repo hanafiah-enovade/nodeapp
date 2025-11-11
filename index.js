@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Salam Sejahtera!');
+    res.type('text').send('Salam Sejahtera!');
 });
 
 app.get('/about', (req, res) => {
