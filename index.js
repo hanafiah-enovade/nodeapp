@@ -29,7 +29,7 @@ app.get('/ictjohor', (req, res) => {
 });
 
 app.get('/demo', (req, res) => {
-    res.json("This is a demo");
+    res.json("Salam Malaysia Madani!!");
 });
 
 app.get('/alrajhi', (req, res) => {
