@@ -40,6 +40,10 @@ app.get('/UM', (req, res) => {
     res.json("UM is One");
 });
 
+app.get('/mindef', (req, res) => {
+    res.json("Salam Muafakat");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
