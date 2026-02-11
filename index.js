@@ -44,6 +44,10 @@ app.get('/mindef', (req, res) => {
     res.json("Salam Muafakat");
 });
 
+app.get('/KTMB/', (req, res) => {
+    res.json("Salam Malaysia Madani!!");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
