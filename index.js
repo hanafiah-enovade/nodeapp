@@ -48,6 +48,10 @@ app.get('/KTMB/', (req, res) => {
     res.json("Salam Malaysia Madani!!");
 });
 
+app.get('/haris', (req, res) => {
+    res.json("Selamat Berpuasa");
+});
+
 app.listen(4000, () => {
     console.log('Example app listening on port 4000!');
 });
